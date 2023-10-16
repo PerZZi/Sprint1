@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Primario-:#023e8a;
+    --Secundario-:#adb5bd;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: var(--Primario-);
+}
+
+nav{
+    display: inline-block;
+    width: 92%;
+}
+
+nav a{
+    margin: 1rem;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px black;   
+}
+
+nav a:hover{
+    color: #dee2e6;
+}
+
+body{
+    width: 100%;
+    background-color: var(--Secundario-);
+}
+
+h1{
+    color: #fff;
+    text-shadow: 1px 2px 4px black;
+    margin: 1rem;
+}
+.imagenes{
+    max-width: 100%;
+}
+
+.imagenes img{
+    margin: 2rem;
+}
+
+.imagenes p{
+    display: inline-block;
+    margin: 2rem;
+}
+
+#banner{
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+#imagen{
+    width: 20rem;
+    border-radius: 2rem;
+    margin: 1rem;
+}
+
+#imagen1{
+    width: 20rem;
+    height: 20rem;
+}
+
+#imagen2{
+    width: 20rem;
+    height: 20rem;
+}
+
+#imagen3{
+    width: 20rem;
+    height: 20rem;
+}
+
+#imagenContacto{
+    width: 60rem;
+    border-radius: 1rem;
+    margin: 0rem 12rem;
+}
+
+h2{
+    color: #fff;
+    text-shadow: 2px 2px 4px black;
+    margin: 1rem;
+}
+
+p{
+    color: #fff;
+    margin: 1rem;
+}
+
+input{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+footer{
+    background-color: var(--Primario-);
+    padding: 1rem;
+}
+
+.foot{
+    font-size: 0.7rem;
+    text-align: center;
+}
