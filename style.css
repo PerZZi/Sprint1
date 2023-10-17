@@ -100,9 +100,15 @@ p{
     margin: 1rem;
 }
 
-input{
+label{
     padding: 1rem;
     margin: 1rem;
+    color: #fff;
+}
+
+#labelN{
+    display: inline-block;
+    margin: 0 92%;
 }
 
 footer{
